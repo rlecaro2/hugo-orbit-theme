@@ -54,7 +54,7 @@ p {
 .sidebar-wrapper {
   background: #4B6A78;
   position: absolute;
-  right: 0;
+  left: 0;
   width: 240px;
   height: 100%;
   min-height: 800px;
@@ -68,6 +68,9 @@ p {
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
+}
+.sidebar-wrapper img {
+  max-width: 150px;
 }
 .sidebar-wrapper .name {
   font-size: 32px;
@@ -155,8 +158,9 @@ p {
 .main-wrapper {
   background: #fff;
   padding: 60px;
-  padding-right: 300px;
+  padding-right: 60px;
   page-break-before: always;
+  margin-left: 240px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
@@ -270,6 +274,7 @@ p {
   }
   .main-wrapper {
     padding: 30px;
+    margin-left: 0;
   }
   .main-wrapper .time {
     position: static;
