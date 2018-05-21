@@ -8,7 +8,7 @@
                             <h3 class="job-title">{{ .position }}</h3>
                             <div class="time">{{ .dates }}</div>
                         </div><!--//upper-row-->
-                        <div class="company">{{ .company }}</div>
+                        <div class="company">{{ with .company }}{{ . | markdownify }}{{ end }}</div>
                     </div><!--//meta-->
                     <div class="details">
                         <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
