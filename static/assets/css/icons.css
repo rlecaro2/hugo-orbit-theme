@@ -1,0 +1,36 @@
+.icon-swimmer {
+  text-indent: -9999px;
+  width: 26px;
+  height: 26px;
+  background: url(../svg/swimmer.svg) no-repeat;
+  background-size: contain;
+  margin-left: -3px;
+}
+
+.icon-fingerprint {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin: 4px 0 0 4px;
+  background: url(../svg/fingerprint.svg) no-repeat;
+  background-size: contain;
+}
+
+.main-wrapper .section-title .icon-background {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background: #2e4049;
+}
+
+.summary-section span {
+  position: relative;
+  top: -3px;
+  left: -6px;
+}

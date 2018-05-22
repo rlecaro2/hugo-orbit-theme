@@ -88,7 +88,8 @@ p {
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
 }
-.sidebar-wrapper .contact-list .fa {
+.sidebar-wrapper .fas,
+.sidebar-wrapper .fab {
   margin-right: 5px;
   font-size: 18px;
   vertical-align: middle;
@@ -171,7 +172,9 @@ p {
   margin-top: 0;
   margin-bottom: 20px;
 }
-.main-wrapper .section-title .fa {
+.main-wrapper .section-title .fa,
+.main-wrapper .section-title .fas,
+.main-wrapper .section-title .fab {
   width: 30px;
   height: 30px;
   margin-right: 8px;
@@ -195,6 +198,7 @@ p {
 .main-wrapper .section {
   margin-bottom: 60px;
   page-break-inside: avoid;
+  text-align: justify;
 }
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
