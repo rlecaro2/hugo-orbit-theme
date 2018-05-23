@@ -1,0 +1,21 @@
+<section class="stack-section section">
+    <h2 class="section-title">
+        <i class="fa {{ .Site.Params.stack.icon }}"></i>{{ i18n "stack" }}</h2>
+    <div class="skillset">
+    {{ range $i, $e := .Site.Params.stack.list }}
+        {{ if $i }}
+        <span class="small-plus">
+            <i class="fas fa-plus"></i>
+        </span>
+        {{ end }}
+
+        <span>
+            <i class="{{ $e.component }}"></i>
+            <div>{{ $e.name }}</div>
+        </span>
+
+    {{ end }}
+    </div>
+</section>
+<!--//skills-section-->
+

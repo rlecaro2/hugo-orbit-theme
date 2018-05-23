@@ -9,6 +9,8 @@
 - id: projects
   translation: Projects
 - id: skills
-  translation: My current stack
+  translation: Skills
+- id: stack
+  translation: Current Stack
 - id: summary
   translation: Summary

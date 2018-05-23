@@ -190,7 +190,8 @@ p {
   background-clip: padding-box;
   background: #2e4049;
   text-align: center;
-  padding-top: 8px;
+  padding-top: 7px;
+  padding-left: 1px;
   font-size: 16px;
   position: relative;
   top: -2px;
@@ -226,17 +227,18 @@ p {
   color: #97AAC3;
 }
 .main-wrapper .project-title {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 .main-wrapper .projects-section .intro {
-  margin-bottom: 30px;
-}
-.main-wrapper .projects-section .item {
   margin-bottom: 15px;
 }
+.main-wrapper .projects-section .item {
+  margin-bottom: 10px;
+}
+
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;

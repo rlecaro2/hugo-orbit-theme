@@ -1,0 +1,16 @@
+.stack-section span {
+  display: inline-block;
+  margin-right: 20px;
+  color: inherit;
+  font-size: 34px;
+  vertical-align: middle;
+}
+
+.stack-section .small-plus {
+    font-size: 16px;
+}
+
+.stack-section div {
+    font-size: 12px;
+    text-align: center;
+}

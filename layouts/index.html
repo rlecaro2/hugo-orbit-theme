@@ -24,7 +24,11 @@
     {{ end }}
 
     {{ if .Site.Params.skills.enable }}
-	{{ partial "skills.html" . }}
+    	{{ partial "skills.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.stack.enable }}
+	    {{ partial "stack.html" . }}
     {{ end }}
 
 	</div><!--//main-body-->
