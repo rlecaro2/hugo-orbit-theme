@@ -7,10 +7,10 @@
 - id: language
   translation: Languages
 - id: projects
-  translation: Projects
+  translation: Current Projects
 - id: skills
   translation: Skills
 - id: stack
-  translation: Current Stack
+  translation: Current Stacks
 - id: summary
   translation: Summary

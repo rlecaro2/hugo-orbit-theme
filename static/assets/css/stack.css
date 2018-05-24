@@ -14,3 +14,27 @@
     font-size: 12px;
     text-align: center;
 }
+
+.bottom-stack {
+    margin-top: 40px;
+}
+
+.stack-image-container {
+    overflow: hidden;
+    width: 45px;
+    height: 45px;
+}
+
+.stack-image {
+    max-height: 45px;
+    filter: none;
+    -webkit-filter: opacity(80%);
+    -moz-filter: opacity(80%);
+    -ms-filter: opacity(80%);
+    -o-filter: opacity(80%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter : grayscale(100%);
+    -ms-filter : grayscale(100%);
+    -o-filter : grayscale(100%);
+}
+

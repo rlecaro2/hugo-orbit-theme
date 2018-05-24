@@ -2,7 +2,7 @@
     <h2 class="section-title">
         <i class="fa {{ .Site.Params.stack.icon }}"></i>{{ i18n "stack" }}</h2>
     <div class="skillset">
-    {{ range $i, $e := .Site.Params.stack.list }}
+    {{ range $i, $e := .Site.Params.stack.work }}
         {{ if $i }}
         <span class="small-plus">
             <i class="fas fa-plus"></i>
@@ -11,6 +11,25 @@
 
         <span>
             <i class="{{ $e.component }}"></i>
+            <div>{{ $e.name }}</div>
+        </span>
+
+    {{ end }}
+    </div>
+
+    <div class="bottom-stack">
+    {{ range $i, $e := .Site.Params.stack.game }}
+        {{ if $i }}
+        <span class="small-plus">
+            <i class="fas fa-plus"></i>
+        </span>
+        {{ end }}
+
+        <span>
+            <div class="stack-image-container">
+                <img class="stack-image" src="{{ .Site.BaseURL }}assets/images/{{ $e.image }}" alt="{{ $e.image }}" />
+            </div>
+
             <div>{{ $e.name }}</div>
         </span>
 
