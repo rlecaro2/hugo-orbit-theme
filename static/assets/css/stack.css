@@ -38,3 +38,8 @@
     -o-filter : grayscale(100%);
 }
 
+[src*="unity"] {
+    opacity: 0.7;
+}
+
+
