@@ -1,7 +1,7 @@
 - id: education
   translation: Education
-- id: experiences
-  translation: Experiences
+- id: experience
+  translation: Experience
 - id: interests
   translation: Interests
 - id: language

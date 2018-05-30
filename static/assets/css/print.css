@@ -1,0 +1,36 @@
+/* sidebar */
+
+a[href]:after {
+  content: none !important;
+}
+
+
+
+.sidebar-wrapper {
+  background-color: #4B6A78;
+  display: inline-block;
+}
+
+.sidebar-wrapper
+.container-block {
+  padding: 30px;
+}
+
+
+.profile-container {
+  display: none;
+}
+/* sidebar */
+
+/* main wrapper */
+.main-wrapper {
+  display: inline-block;
+}
+/* main wrapper */
+
+
+
+@page {
+  size: auto;
+  margin: 0mm;
+}
